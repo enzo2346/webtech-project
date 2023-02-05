@@ -17,13 +17,13 @@ We did the labs and project together always on one computer for simplification p
 1. Clone our repository by running the following command on your terminal:
 
 ```bash
-git clone https://github.com/enzo2346/ece-webtech-blogging-app.git
+git clone https://github.com/enzo2346/webtech-project.git
 ```
 
 or (if you want to use SSH)
 
 ```bash
-git clone git@github.com:enzo2346/ece-webtech-blogging-app.git
+git clone git@github.com:enzo2346/webtech-project.git
 ```
 
 2. On you terminal, go to the root directory of the application (inside the /app folder) and run:

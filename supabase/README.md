@@ -4,7 +4,7 @@
 
 To use a local instance of supabase you need to follow the steps below:
 
-1. Clone this repository and navigate to the [supabase](https://github.com/enzo2346/ece-webtech-blogging-app/tree/main/supabase) folder in your terminal.
+1. Clone this repository and navigate to the [supabase](https://github.com/enzo2346/webtech-project/tree/main/supabase) folder in your terminal.
 
 2. Copy the "./supabase/.env.example" file into "./supabase/.env"
 
@@ -36,6 +36,6 @@ For uid:
 
 ![uid](/images/uid.png)
 
-6. Finally in your [app/.env](https://github.com/enzo2346/ece-webtech-blogging-app/blob/main/app/.env) file replace the url and anon key by your local one. These key can be found in Supabase Studio in settings/api
+6. Finally in your [app/.env](https://github.com/enzo2346/webtech-project/blob/main/app/.env) file replace the url and anon key by your local one. These key can be found in Supabase Studio in settings/api
 
 You can then use our application freely with a local database.
