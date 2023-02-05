@@ -1,0 +1,43 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "description": "A Next.js blogging platform",
+  "homepage": "https://github.com/enzo2346/ece-webtech-blogging-app",
+  "author": "BRICE Matthieu <matthieu.brice@edu.ece.fr> (https://github.com/MatthieuB92)",
+  "contributors": [
+    "GALLOS Enzo <enzo.gallos@edu.ece.fr> (https://github.com/enzo2346)"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "@supabase/auth-helpers-nextjs": "^0.5.2",
+    "@supabase/auth-helpers-react": "^0.3.1",
+    "@supabase/auth-ui-react": "^0.2.6",
+    "@supabase/supabase-js": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.8",
+    "crypto-js": "^4.1.1",
+    "markdown-it": "^13.0.1",
+    "moment": "^2.29.4",
+    "next": "13.0.5",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss-font-inter": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  }
+}

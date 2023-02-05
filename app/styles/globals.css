@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wt-title {
+  @apply text-3xl font-bold mb-10 text-center dark:text-slate-100 text-slate-800;
+}
+
+.toggle {
+  --width: 50px;
+  --height: calc(var(--width) / 2);
+  --border-radius: calc(var(--height) / 2);
+
+  position: absolute;
+  right: 25px;
+
+  display: inline-block;
+  cursor: pointer;
+}
+
+.toggle input {
+  display: none;
+}
+
+.toggle__fill {
+  position: relative;
+  width: var(--width);
+  height: var(--height);
+  border-radius: var(--border-radius);
+  background: #dddddd;
+  transition: background 0.2s;
+}
+
+.toggle input:checked ~ .toggle__fill {
+  background: rgb(32, 41, 58);
+}
+
+.toggle__fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: var(--height);
+  height: var(--height);
+  width: var(--height);
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--border-radius);
+  transition: transform 0.2s;
+}
+
+.toggle input:checked ~ .toggle__fill::after {
+  transform: translateX(calc(var(--height) * -1));
+}
+
+
+.aboutDiv {
+  transition: transform 0.3s;
+}
+
+.aboutDiv:hover {
+  transform: scale(1.03, 1.03)
+}
+
+.aboutDiv .aboutDivP {
+  transition: margin-left 0.6s;
+}
+
+.aboutDiv:hover .aboutDivP {
+  margin-left: 10px;
+}
+
+.aboutDiv div:nth-child(1) {
+  transition: background-color 0.3s;
+}
+
+.aboutDiv:hover div:nth-child(1) {
+  background-color: rgb(16, 23, 41);
+}
+
+
+.backgroundAdmin {
+  background: linear-gradient(135deg, rgba(220, 120, 30, 0.3) 12.5%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 37.5%, rgba(220, 120, 30, 0.3) 37.5%, rgba(220, 120, 30, 0.3) 62.5%, rgba(0, 0, 0, 0) 62.5%, rgba(0, 0, 0, 0) 87.5%, rgba(220, 120, 30, 0.3) 87.5%);
+  background-size: 100px 100px;
+  background-position: 50px 50px;
+}
